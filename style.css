@@ -1,0 +1,36 @@
+body{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: rgb(248, 155, 170);
+    font-size: 16px;
+    font-family: 'Segoe UI', sans-serif;
+
+}
+.num{
+    font-size: 100px;
+    text-align: center;
+    background-color: rgb(248, 155, 170);
+    border: none;
+    outline: none;
+}
+.line{
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+}
+.line button{
+    font-size: 70px;
+    border: none;
+    background-color: rgb(248, 155, 170);
+}
+#reset{
+    font-size: 40px;
+    border: none;
+    background-color: red;
+    border-radius: 15px;
+}
