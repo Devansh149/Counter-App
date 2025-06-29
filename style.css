@@ -34,3 +34,7 @@ body{
     background-color: red;
     border-radius: 15px;
 }
+.card>p{
+    font-size: large;
+    margin-top: 50px;
+}
