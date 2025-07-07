@@ -1,40 +1,77 @@
 body{
+    height: 100vh;
     margin: 0;
     padding: 0;
-    height: 100vh;
+    background-color: black;
     display: flex;
     align-items: center;
     justify-content: center;
-    text-align: center;
-    background-color: rgb(248, 155, 170);
-    font-size: 16px;
-    font-family: 'Segoe UI', sans-serif;
-
 }
-.num{
-    font-size: 100px;
+.outer{
+    border: 2px solid pink;
+    height: 12rem;
+    width: 16rem;
+    padding: 2em;
+    background-color: rgb(24, 24, 24);
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    transition:all 0.5s ease;
+}
+.outer:hover{
+    border-color: rgb(235, 107, 128);
+    transform: translateY(-5px);
+}
+h1{
+    margin-top: 0.2em;
     text-align: center;
-    background-color: rgb(248, 155, 170);
+    font-family: "Raleway", sans-serif;
+    letter-spacing: 1px;
+    color: antiquewhite;
+    margin-bottom: 0;
+}
+.buttons{
+    display: flex;
+    gap: 1em;
+}
+.buttons button{
+    font-family: "Raleway", sans-serif;
+    border-radius: 5px;
+    padding: 0.9em;
+    font-size: 15px;
+    font-weight: 600;
+    border: none;
+    cursor: pointer;
+    margin-top: 1rem;
+    margin-bottom: 0;
+}
+.click{  
+    transition:all 0.5s ease;
+}
+.click:hover{
+    background-color: rgb(164, 164, 244);
+}
+.reset{
+    transition:all 0.5s ease;
+}
+.reset:hover{
+    background-color: rgb(246, 111, 111);
+}
+#count{
+    margin-top: 0.1em;
+    text-align: center;
+    background-color: transparent;
+    width: 16rem;
     border: none;
     outline: none;
+    color: blanchedalmond;
+    font-size: 3.5em;
 }
-.line{
-    display: flex;
-    gap: 30px;
-    justify-content: center;
-}
-.line button{
-    font-size: 70px;
-    border: none;
-    background-color: rgb(248, 155, 170);
-}
-#reset{
-    font-size: 40px;
-    border: none;
-    background-color: red;
-    border-radius: 15px;
-}
-.card>p{
-    font-size: large;
-    margin-top: 50px;
+.outro{
+    color: blanchedalmond;
+    font-family: "Raleway", sans-serif;
+    font-weight: 600;
+    
 }
