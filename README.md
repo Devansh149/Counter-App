@@ -7,6 +7,4 @@ I learned mainly three things in this project:
 
 2.Event Handling
 
-3.switch-case logic
-
 Hope you'll like it
